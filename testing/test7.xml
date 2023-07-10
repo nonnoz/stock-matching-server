@@ -1,0 +1,5 @@
+<transactions id="shyaz2"> 
+    <order sym="CUBE" amount="-25" limit="18"/>
+    <order sym="YG" amount="25" limit="20"/>
+    <order sym="SM" amount="25" limit="40"/>
+</transactions>

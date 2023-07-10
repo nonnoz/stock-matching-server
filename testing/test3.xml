@@ -1,0 +1,7 @@
+<create>
+    <account id="rh328" balance="234"/>
+    <symbol sym="YG"> 
+        <account id="shyaz2">78.9</account>
+        <account id="rh328">53.33</account>
+    </symbol>
+</create>

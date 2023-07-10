@@ -1,0 +1,54 @@
+<create>
+    <account id="az161" balance="3200.59"/>
+    <account id="az161" balance="0.34"/>
+    <account id="shyaz2" balance="500.99"/> 
+</create>
+
+
+<create> 
+    <symbol sym="SM"> 
+        <account id="az161">35.5</account>
+        <account id="rh328">72.3</account>
+        <account id="az161">38.88</account>
+    </symbol>
+</create>
+
+<create>
+    <account id="rh328" balance="234"/>
+    <symbol sym="YG"> 
+        <account id="shyaz2">78.9</account>
+        <account id="rh328">53.33</account>
+    </symbol>
+</create>
+
+<create>
+    <symbol sym="SM"> 
+        <account id="az161">69.8</account>
+        <account id="rh328">75</account>
+    </symbol>
+</create>
+
+
+<create>
+    <symbol sym="CUBE"> 
+        <account id="az161">999.88</account>
+        <account id="shyaz2">30</account>
+    </symbol>
+</create>
+
+<create>
+    <symbol sym="YG"> 
+        <account id="rh328">26.3</account>
+    </symbol>
+</create>
+
+<transactions id="shyaz2"> 
+    <order sym="CUBE" amount="-25" limit="18"/>
+    <order sym="YG" amount="25" limit="20"/>
+    <order sym="SM" amount="25" limit="40"/>
+</transactions>
+
+<transactions id="az161"> 
+    <order sym="YG" amount="-30" limit="18"/>
+    <order sym="YG" amount="25" limit="20"/>
+</transactions>

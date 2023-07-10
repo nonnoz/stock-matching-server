@@ -1,0 +1,18 @@
+04/01/2023
+Got some errer in database part. Because query for creating database used ORDER and LIMIT, which are two words that reserved by postgres. 
+Solved it by changing these words to ORDERS and PRICE.
+
+04/03/2023
+Account with insufficient amount can also create order, which is not correct. 
+The problem is that, when trying to get the account amount, there is no checking if there is such symbol for that account, so it just get a random number.
+Solved by checking the size of the query result first, then doing corresponding operation.
+
+04/05/2023
+Have problems when doing parallel running. Always have the problem that 'Started nontransaction while transaction<READ COMMITTED> still active'
+It is because a transaction or a nontransaction is not closed before another one wants to open. 
+But the database code has no problem, all transactions and nontransactions are closed after using. 
+So we need to add a lock. After add lock to the read xml function, problem solved.
+
+04/06/2023
+Had segmentation fault when compose docker. Because the database name is not matched. 
+Solved by match the names in file, also delete images to rerun.
