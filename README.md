@@ -1,1 +1,1 @@
-# mini-amazon
+# stock-matching-server
